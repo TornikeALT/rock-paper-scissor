@@ -1,0 +1,201 @@
+@media(max-width:780px) {
+
+    .user_pick,
+    .house_pick {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .wrapper {
+        position: relative;
+        padding: 0 12px;
+    }
+
+    .heading {
+        margin: 3rem 1rem;
+    }
+
+    .heading img {
+        max-width: 110px;
+    }
+
+    .score {
+        padding: 10px 2rem;
+    }
+
+    .score span:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .picks_border_scissors,
+    .picks_border_rock,
+    .picks_border_papper {
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .picks_scissors,
+    .picks_rock,
+    .picks_papper {
+        max-width: 140px;
+        min-height: 140px;
+    }
+
+    .picks_scissors img,
+    .picks_rock img,
+    .picks_papper img {
+        max-width: 50px;
+        width: 100%;
+    }
+
+    .result {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -15rem;
+        width: 40%;
+    }
+
+    .rules {
+        left: 50%;
+        transform: translateX(-50%);
+        right: unset;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:530px) {
+
+    .picks_border_scissors,
+    .picks_border_rock,
+    .picks_border_papper {
+        max-width: 160px;
+        min-height: 160px;
+        width: 100%;
+    }
+
+    .picks_scissors,
+    .picks_rock,
+    .picks_papper {
+        max-width: 100px;
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .picks_scissors img,
+    .picks_rock img,
+    .picks_papper img {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .user_pick h3,
+    .house_pick h3 {
+        font-size: 15px;
+    }
+
+    .result {
+        white-space: nowrap;
+    }
+
+    .border_papper,
+    .border_scissors,
+    .border_rock {
+        max-width: 120px;
+        min-height: 120px;
+        width: 100%;
+    }
+
+    .papper,
+    .scissors,
+    .rock {
+        max-width: 80px;
+        min-height: 80px;
+        width: 100%;
+    }
+
+    .modal_content {
+        top: 0;
+        left: 0;
+        transform: unset;
+        width: 100%;
+        height: 100%;
+        padding: unset;
+        border-radius: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .close {
+        display: none;
+    }
+}
+
+@media (max-width:420px) {
+
+    .picks_border_scissors,
+    .picks_border_rock,
+    .picks_border_papper {
+        max-width: 120px;
+        min-height: 120px;
+        width: 100%;
+    }
+
+    .picks_scissors,
+    .picks_rock,
+    .picks_papper {
+        max-width: 70px;
+        width: 100%;
+        min-height: 70px;
+    }
+
+    .picks_scissors img,
+    .picks_rock img,
+    .picks_papper img {
+        max-width: 25px;
+        width: 100%;
+    }
+
+    .user_pick h3,
+    .house_pick h3 {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+
+    .heading {
+        padding: 10px 1rem
+    }
+
+    .heading img {
+        max-width: 75px;
+    }
+
+    .score {
+        padding: 12px 22px;
+    }
+
+    .score span:first-child {
+        font-size: 10px;
+    }
+
+    .score span:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .result button {
+        font-size: 12px;
+    }
+
+    .actions {
+        min-height: 330px;
+        background-position: bottom;
+    }
+}
+
+@media(min-width:520px) {
+    .close_for_responsive {
+        display: none;
+    }
+}
